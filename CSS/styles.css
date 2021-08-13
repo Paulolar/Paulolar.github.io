@@ -1,0 +1,181 @@
+html{
+
+  padding: 40px;
+}
+body{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: whitesmoke;
+  border: tomato solid 2px;
+  
+  
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2fr, 1fr);
+    grid-template-rows: auto;
+   /* border: black solid 1px;*/
+    padding: 8px;
+  }
+
+  .write{
+    grid-column: 1/2;
+  }
+
+  .pic{
+    grid-column: 2/3;
+    
+  }
+  
+  .o{
+    color: aqua;
+  }
+
+  .top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 63%;
+    margin-top: 10px;
+    
+   
+  }
+  .home{ 
+    color: aqua;
+  }
+
+  ul{
+    text-decoration: none;
+    font-size: large;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  header{
+    display: flex;
+    /*border: springgreen solid 2px; */
+    
+  }
+
+  .me{
+    color: aqua;
+  }
+
+  
+  .new{
+    width: 500px;
+    height: 500px;
+  } 
+
+  .art{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  .mini{
+    grid-column: 1/2;
+  }
+
+  .skills{
+    grid-column: 2/3;
+    
+  }
+  p{
+    font-weight: 200;
+    font-size: medium;
+  }
+  .b{
+    font-size: medium;
+  }
+  .t{
+    font-size: large;
+  }
+
+  
+  .ht{
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50PX;
+  }
+  .css{
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50PX;
+  }
+
+  .java{
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50PX;
+  }
+
+  .python {
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50PX;
+  }
+
+  .report{
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 70PX;
+
+  }
+
+  .excel{
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50PX;
+
+  }
+  .l1{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .l2{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+    width: 260px;
+    
+
+  }
+  .node{
+    background-color:silver;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 50PX;
+    
+  }
+
+  footer{
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .bottom{
+    display: flex;
+    position: relative;
+    left: 60%;
+    width: 150px;
+    justify-content: space-between;
+    /*border: black solid 2px;*/
+  }
+  
